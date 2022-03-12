@@ -1,6 +1,7 @@
-API explorer for the Rick & Morty API ### React, reportWebVitals, fetch, react-pagination, bootstrap 
-1.Clone or download this repository to your local machine.
-2.### Package required
+API explorer for the Rick & Morty API 
+### React, reportWebVitals, fetch, react-pagination, bootstrap ```
+1. ### Clone or download this repository to your local machine.```
+2. ### Package required
 
 ```
 npx create-react-app .
@@ -17,6 +18,6 @@ npm install react-router-dom
 
 npm start
 ```
-3.Acess using ###http://localhost:3000/
+3. ### Acess using ###http://localhost:3000/
 
 
