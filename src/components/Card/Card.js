@@ -7,7 +7,7 @@ const Card = ({ page, results }) => {
 
   if (results) {
     display = results.map((x) => {
-      let { id, image, name, status, location } = x;
+      let { id, image, name, status, location,gender,species } = x;
       return (
         <Link
           style={{ textDecoration: "none" }}
@@ -24,6 +24,10 @@ const Card = ({ page, results }) => {
               <div className="">
                 <div className="fs-6 fw-normal">Last Location</div>
                 <div className="fs-5">{location.name}</div>
+                <div className="fs-6 fw-normal">Gender</div>
+                <div className="fs-5">{gender}</div>
+                <div className="fs-6 fw-normal">Species</div>
+                <div className="fs-5">{species}</div>
               </div>
             </div>
           </div>

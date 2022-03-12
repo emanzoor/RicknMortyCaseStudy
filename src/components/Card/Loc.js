@@ -13,7 +13,7 @@ const Loc = ({ page, results }) => {
           style={{ textDecoration: "none" }}
           to={`${page}${id}`}
           key={id}
-          className="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 position-relative text-dark col-md-offset-3"
+          className="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 position-relative text-dark col-md-offset-3 loc "
         >
           <div
             className={`${styles.card} d-flex flex-column justify-content-center`}

@@ -4,7 +4,6 @@ import Card from "../components/Card/Card";
 import InputGroup from "../components/Filter/category/InputGroup";
 
 const Location = () => {
-  let display;
   let [results, setResults] = React.useState([]);
   let [info, setInfo] = useState([]);
   let { type, dimension, name } = info;
